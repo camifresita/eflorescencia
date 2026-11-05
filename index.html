@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eflorescencia SAS - Detalles que florecen | Regalos personalizados en Bogotá</title>
+<meta name="description" content="Eflorescencia SAS diseña y produce regalos personalizados con esencia floral y artesanal en Tunjuelito, Bogotá. Kits, peluches, rosas eternas y detalles para ocasiones especiales. Solicita tu cotización.">
+<meta name="keywords" content="regalos personalizados Bogotá, regalos artesanales, detalles personalizados cumpleaños, regalos aniversarios, peluches personalizados, rosas eternas, kits regalos personalizados, regalos ocasiones especiales, Tunjuelito Bogotá">
+<meta name="author" content="Eflorescencia SAS">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --color-rosa-muy-claro: #FFF2FD;
+    --color-amarillo-crema: #FFFFE3;
+    --color-verde-natural: #869E7B;
+    --color-verde-claro: #B2DE9E;
+    --color-verde-pastel: #D1E0C8;
+    --color-rosa-medio: #DE95CA;
+    --color-rosa-pastel: #F0DAE9;
+    --color-rosa-intenso: #D166AF;
+    --color-texto-principal: #2C2C2C;
+    --color-texto-secundario: #5A5A5A;
+    --color-blanco: #FFFFFF;
+    --sombra-suave: 0 4px 20px rgba(0,0,0,0.08);
+    --sombra-media: 0 8px 30px rgba(0,0,0,0.12);
+    --transicion-suave: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --transicion-rapida: all 0.2s ease;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+
+  body {
+    font-family: 'Lato', sans-serif;
+    color: var(--color-texto-principal);
+    background-color: var(--color-blanco);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  h1 { font-size: 3rem; }
+  h2 { font-size: 2.5rem; }
+  h3 { font-size: 1.8rem; }
+  h4 { font-size: 1.3rem; }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .section {
+    padding: 6rem 0;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .section-title h2 {
+    color: var(--color-texto-principal);
+    margin-bottom: 0.5rem;
+  }
+
+  .section-title p {
+    color: var(--color-texto-secundario);
+    font-size: 1.1rem;
+  }
+
+  .section-divider {
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-rosa-intenso), var(--color-rosa-medio));
+    margin: 1rem auto;
+    border-radius: 2px;
+  }
+
+  /* Botones */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: var(--transicion-rapida);
+    border: none;
+  }
+
+  .btn-primary {
+    background-color: var(--color-rosa-intenso);
+    color: var(--color-blanco);
+  }
+
+  .btn-primary:hover {
+    background-color: #c1539d;
+    transform: translateY(-2px);
+    box-shadow: var(--sombra-suave);
+  }
+
+  .btn-secondary {
+    background-color: var(--color-blanco);
+    color: var(--color-rosa-intenso);
+    border: 2px solid var(--color-rosa-intenso);
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--color-rosa-intenso);
+    color: var(--color-blanco);
+    transform: translateY(-2px);
+  }
+
+  .btn-outline {
+    background-color: transparent;
+    color: var(--color-rosa-intenso);
+    border: 2px solid var(--color-rosa-intenso);
+  }
+
+  .btn-outline:hover {
+    background-color: var(--color-rosa-intenso);
+    color: var(--color-blanco);
+  }
+
+  /* Header */
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    border-bottom: 1px solid rgba(222, 149, 202, 0.2);
+    transition: var(--transicion-rapida);
+  }
+
+  header.scrolled {
+    box-shadow: var(--sombra-suave);
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .nav-menu a {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--color-texto-principal);
+    transition: var(--transicion-rapida);
+    position: relative;
+  }
+
+  .nav-menu a:hover {
+    color: var(--color-rosa-intenso);
+  }
+
+  .nav-menu a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--color-rosa-intenso);
+    transition: var(--transicion-rapida);
+  }
+
+  .nav-menu a:hover::after {
+    width: 100%;
+  }
+
+  .mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--color-texto-principal);
+  }
+
+  /* Hero */
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--color-rosa-muy-claro) 0%, var(--color-amarillo-crema) 100%);
+  }
+
+  .hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 800px;
+    padding: 0 2rem;
+  }
+
+  .hero-badge {
+    display: inline-block;
+    background: var(--color-rosa-pastel);
+    color: var(--color-rosa-intenso);
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    animation: fadeInUp 0.8s ease;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    animation: fadeInUp 0.8s ease 0.2s both;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    color: var(--color-texto-secundario);
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeInUp 0.8s ease 0.4s both;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: fadeInUp 0.8s ease 0.6s both;
+  }
+
+  .hero-image {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 30px;
+    box-shadow: var(--sombra-media);
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Ocaciones */
+  .occasiones {
+    background-color: var(--color-rosa-muy-claro);
+  }
+
+  .occasiones-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+  }
+
+  .occasion-card {
+    background: var(--color-blanco);
+    border-radius: 24px;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transicion-suave);
+    border: 1px solid rgba(222, 149, 202, 0.15);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .occasion-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-rosa-intenso), var(--color-rosa-medio));
+  }
+
+  .occasion-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--sombra-media);
+    border-color: var(--color-rosa-intenso);
+  }
+
+  .occasion-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .occasion-card h3 {
+    margin-bottom: 0.8rem;
+  }
+
+  .occasion-card p {
+    color: var(--color-texto-secundario);
+    font-size: 0.95rem;
+  }
+
+  /* Catalogo */
+  .catalogo {
+    background-color: var(--color-blanco);
+  }
+
+  .filtros-catalogo {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .filtro-btn {
+    padding: 0.6rem 1.5rem;
+    border-radius: 50px;
+    border: 1px solid var(--color-verde-natural);
+    background: transparent;
+    color: var(--color-texto-principal);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transicion-rapida);
+    font-family: 'Lato', sans-serif;
+    font-size: 0.95rem;
+  }
+
+  .filtro-btn.active,
+  .filtro-btn:hover {
+    background: var(--color-verde-natural);
+    color: var(--color-blanco);
+    border-color: var(--color-verde-natural);
+  }
+
+  .catalogo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  .producto-card {
+    background: var(--color-blanco);
+    border-radius: 24px;
+    overflow: hidden;
+    transition: var(--transicion-suave);
+    border: 1px solid rgba(209, 224, 200, 0.3);
+    position: relative;
+  }
+
+  .producto-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--sombra-media);
+    border-color: var(--color-verde-claro);
+  }
+
+  .producto-imagen {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    background: var(--color-verde-pastel);
+  }
+
+  .producto-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transicion-suave);
+  }
+
+  .producto-card:hover .producto-imagen img {
+    transform: scale(1.05);
+  }
+
+  .producto-info {
+    padding: 1.5rem;
+  }
+
+  .producto-info h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  .producto-info p {
+    color: var(--color-texto-secundario);
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+
+  .producto-precio {
+    font-weight: 700;
+    color: var(--color-rosa-intenso);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Personaliza */
+  .personaliza {
+    background: linear-gradient(135deg, var(--color-rosa-muy-claro) 0%, var(--color-amarillo-crema) 100%);
+  }
+
+  .personaliza-contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .pasos-personalizacion {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .paso {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .numero-paso {
+    width: 40px;
+    height: 40px;
+    background: var(--color-rosa-intenso);
+    color: var(--color-blanco);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+
+  .paso-texto h4 {
+    margin-bottom: 0.3rem;
+  }
+
+  .paso-texto p {
+    color: var(--color-texto-secundario);
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  .formulario-personaliza {
+    background: var(--color-blanco);
+    padding: 2.5rem;
+    border-radius: 24px;
+    box-shadow: var(--sombra-suave);
+  }
+
+  .formulario-personaliza h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--color-texto-principal);
+    font-size: 0.95rem;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.9rem;
+    border: 2px solid var(--color-verde-pastel);
+    border-radius: 12px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    transition: var(--transicion-rapida);
+    background: var(--color-blanco);
+  }
+
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-rosa-intenso);
+  }
+
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  .checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .checkbox-group input {
+    width: auto;
+    margin-top: 0.2rem;
+  }
+
+  .checkbox-group label {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 0.95rem;
+  }
+
+  .form-mensaje {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+    display: none;
+  }
+
+  .form-mensaje.exito {
+    background: var(--color-verde-pastel);
+    color: var(--color-verde-natural);
+    border: 1px solid var(--color-verde-claro);
+  }
+
+  .form-mensaje.error {
+    background: var(--color-rosa-pastel);
+    color: var(--color-rosa-intenso);
+    border: 1px solid var(--color-rosa-medio);
+  }
+
+  /* Por qué elegir */
+  .por-que-elegir {
+    background-color: var(--color-blanco);
+  }
+
+  .atributos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+
+  .atributo-card {
+    background: var(--color-rosa-pastel);
+    padding: 2.5rem 1.5rem;
+    border-radius: 24px;
+    text-align: center;
+    transition: var(--transicion-suave);
+    border: 1px solid rgba(240, 218, 233, 0.5);
+  }
+
+  .atributo-card:hover {
+    background: var(--color-blanco);
+    transform: translateY(-5px);
+    box-shadow: var(--sombra-suave);
+    border-color: var(--color-rosa-medio);
+  }
+
+  .atributo-icono {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .atributo-card h3 {
+    margin-bottom: 0.8rem;
+  }
+
+  .atributo-card p {
+    color: var(--color-texto-secundario);
+    font-size: 0.95rem;
+  }
+
+  /* Institucional */
+  .institucional {
+    background-color: var(--color-amarillo-crema);
+  }
+
+  .institucional-contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .mision-bloque,
+  .vision-bloque {
+    padding: 2rem;
+    border-radius: 24px;
+    box-shadow: var(--sombra-suave);
+  }
+
+  .mision-bloque {
+    background: var(--color-blanco);
+    border-left: 6px solid var(--color-rosa-intenso);
+  }
+
+  .vision-bloque {
+    background: var(--color-verde-pastel);
+    border-left: 6px solid var(--color-verde-natural);
+  }
+
+  .institucional h3 {
+    margin-bottom: 1rem;
+    color: var(--color-texto-principal);
+  }
+
+  .institucional p {
+    color: var(--color-texto-secundario);
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .infografia-valores {
+    grid-column: 1 / -1;
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .infografia-valores img {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: var(--sombra-media);
+    border: 4px solid var(--color-blanco);
+  }
+
+  /* Sostenibilidad */
+  .sostenibilidad {
+    background-color: var(--color-verde-pastel);
+  }
+
+  .sostenibilidad-contenido {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .sostenibilidad-intro {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .sostenibilidad-intro h2 {
+    margin-bottom: 1rem;
+  }
+
+  .sostenibilidad-intro p {
+    color: var(--color-texto-secundario);
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .politica-sostenibilidad {
+    background: var(--color-blanco);
+    padding: 3rem;
+    border-radius: 24px;
+    box-shadow: var(--sombra-suave);
+    margin-bottom: 3rem;
+    text-align: justify;
+  }
+
+  .politica-sostenibilidad p {
+    color: var(--color-texto-secundario);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .ejes-sostenibilidad {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .eje-card {
+    background: var(--color-blanco);
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid rgba(134, 158, 123, 0.15);
+    transition: var(--transicion-suave);
+  }
+
+  .eje-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--sombra-suave);
+    border-color: var(--color-verde-natural);
+  }
+
+  .eje-icono {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .eje-card h3 {
+    margin-bottom: 0.8rem;
+    color: var(--color-texto-principal);
+  }
+
+  .eje-card p {
+    color: var(--color-texto-secundario);
+    font-size: 0.95rem;
+  }
+
+  /* Cobertura */
+  .cobertura {
+    background-color: var(--color-blanco);
+  }
+
+  .cobertura-contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .cobertura-info h3 {
+    margin-bottom: 1rem;
+  }
+
+  .cobertura-info p {
+    color: var(--color-texto-secundario);
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+
+  .cobertura-info ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cobertura-info li {
+    color: var(--color-texto-secundario);
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+
+  .cobertura-info li::before {
+    content: '•';
+    color: var(--color-rosa-intenso);
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+  }
+
+  .cobertura-mapa {
+    background: var(--color-rosa-pastel);
+    padding: 3rem;
+    border-radius: 24px;
+    text-align: center;
+  }
+
+  .cobertura-lugar {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .cobertura-mapa h3 {
+    margin-bottom: 1rem;
+  }
+
+  .cobertura-mapa p {
+    color: var(--color-texto-secundario);
+    margin-bottom: 1.5rem;
+  }
+
+  /* Redes sociales */
+  .redes-sociales {
+    background: linear-gradient(135deg, var(--color-rosa-muy-claro) 0%, var(--color-amarillo-crema) 100%);
+  }
+
+  .redes-contenido {
+    text-align: center;
+  }
+
+  .redes-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .red-card {
+    background: var(--color-blanco);
+    padding: 2rem;
+    border-radius: 24px;
+    box-shadow: var(--sombra-suave);
+    transition: var(--transicion-suave);
+    min-width: 200px;
+  }
+
+  .red-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--sombra-media);
+  }
+
+  .red-icono {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .red-card h3 {
+    margin-bottom: 0.8rem;
+  }
+
+  .red-card p {
+    color: var(--color-texto-secundario);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .red-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-rosa-intenso);
+    font-weight: 600;
+    transition: var(--transicion-rapida);
+  }
+
+  .red-link:hover {
+    color: var(--color-rosa-medio);
+  }
+
+  /* CTA final */
+  .cta-final {
+    background: linear-gradient(135deg, var(--color-rosa-intenso) 0%, #b04d97 100%);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 5rem 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta-final::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .cta-final h2 {
+    color: var(--color-blanco);
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  .cta-final p {
+    font-size: 1.3rem;
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .cta-final .btn {
+    position: relative;
+    z-index: 2;
+    background: var(--color-amarillo-crema);
+    color: var(--color-rosa-intenso);
+  }
+
+  .cta-final .btn:hover {
+    background: var(--color-blanco);
+  }
+
+  /* Footer */
+  footer {
+    background-color: var(--color-texto-principal);
+    color: var(--color-blanco);
+    padding: 4rem 0 2rem;
+  }
+
+  .footer-contenido {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .footer-logo img {
+    height: 60px;
+    width: auto;
+    margin-bottom: 1rem;
+  }
+
+  .footer-eslogan {
+    color: var(--color-rosa-medio);
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-desc {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    max-width: 300px;
+  }
+
+  .footer-columna h4 {
+    color: var(--color-blanco);
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  .footer-columna ul li {
+    margin-bottom: 0.8rem;
+  }
+
+  .footer-columna a {
+    color: rgba(255,255,255,0.7);
+    transition: var(--transicion-rapida);
+    font-size: 0.95rem;
+  }
+
+  .footer-columna a:hover {
+    color: var(--color-rosa-medio);
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 2rem;
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+    font-size: 0.9rem;
+  }
+
+  /* Utils */
+  .hidden { display: none !important; }
+  .text-center { text-align: center; }
+
+  /* Responsive */
+  @media (max-width: 968px) {
+    .nav-menu {
+      display: none;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background: var(--color-blanco);
+      flex-direction: column;
+      padding: 2rem;
+      gap: 1.5rem;
+      border-bottom: 1px solid rgba(222, 149, 202, 0.2);
+      box-shadow: var(--sombra-suave);
+    }
+
+    .nav-menu.active {
+      display: flex;
+    }
+
+    .mobile-menu-btn {
+      display: block;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+
+    .personaliza-contenido {
+      grid-template-columns: 1fr;
+    }
+
+    .institucional-contenido {
+      grid-template-columns: 1fr;
+    }
+
+    .cobertura-contenido {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-contenido {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .section {
+      padding: 4rem 0;
+    }
+
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.5rem; }
+  }
+
+  @media (max-width: 640px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+
+    .footer-contenido {
+      grid-template-columns: 1fr;
+    }
+
+    .cta-final h2 {
+      font-size: 2rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header id="header">
+  <div class="container header-content">
+    <div class="logo">
+      <img src="Logo.png" alt="Logo Eflorescencia SAS">
+    </div>
+    <nav class="nav-menu" id="nav-menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#personaliza">Personalizar</a>
+      <a href="#institucional">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir menú">
+      ☰
+    </button>
+    <a href="#catalogo" class="btn btn-primary" style="padding: 0.7rem 1.5rem; font-size: 0.9rem;">Ver Catálogo</a>
+  </div>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="hero-bg"></div>
+  <div class="container hero-content">
+    <span class="hero-badge">Regalos con esencia floral y artesanal</span>
+    <h1>Detalles que florecen en cada celebración</h1>
+    <p>Encuentra el regalo perfecto para expresar lo que sientes. Diseños personalizados, toques artesanales y la esencia de las flores para hacer inolvidable cada momento especial.</p>
+    <div class="hero-buttons">
+      <a href="#catalogo" class="btn btn-primary">Encuentra el regalo perfecto</a>
+      <a href="#personaliza" class="btn btn-secondary">Personaliza tu regalo</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="Catalogo.png" alt="Detalle floral personalizado de Eflorescencia" loading="lazy">
+  </div>
+</section>
+
+<section class="occasiones section" id="ocasiones">
+  <div class="container">
+    <div class="section-title">
+      <h2>Encuentra el detalle según la ocasión</h2>
+      <p>Cada celebración merece un regalo único y personalizado</p>
+      <div class="section-divider"></div>
+    </div>
+    <div class="occasiones-grid">
+      <div class="occasion-card">
+        <span class="occasion-icon">🎂</span>
+        <h3>Cumpleaños</h3>
+        <p>Detalles pensados para sorprender en ese día tan especial.</p>
+      </div>
+      <div class="occasion-card">
+        <span class="occasion-icon">💑</span>
+        <h3>Aniversarios</h3>
+        <p>Recuerdos que florecen para celebrar el amor y la compañía.</p>
+      </div>
+      <div class="occasion-card">
+        <span class="occasion-icon">🎓</span>
+        <h3>Graduaciones</h3>
+        <p>Detalles únicos para reconocer logros y nuevos comienzos.</p>
+      </div>
+      <div class="occasion-card">
+        <span class="occasion-icon">💕</span>
+        <h3>Noviazgos</h3>
+        <p>Regalos con esencia floral para expresar cariño y compromiso.</p>
+      </div>
+      <div class="occasion-card">
+        <span class="occasion-icon">✨</span>
+        <h3>Celebraciones especiales</h3>
+        <p>Propuestas artesanales para cualquier momento inolvidable.</p>
+      </div>
+      <div class="occasion-card" style="grid-column: 1 / -1;">
+        <a href="#catalogo" class="btn btn-outline">Ver todos los detalles por ocasión</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="catalogo section" id="catalogo">
+  <div class="container">
+    <div class="section-title">
+      <h2>Nuestro catálogo de regalos</h2>
+      <p>Descubre propuestas artesanales con esencia floral para cada persona y ocasión</p>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="filtros-catalogo">
+      <button class="filtro-btn active" data-filter="todos">Todos</button>
+      <button class="filtro-btn" data-filter="kits">Kits personalizados</button>
+      <button class="filtro-btn" data-filter="peluches">Peluches</button>
+      <button class="filtro-btn" data-filter="rosas">Rosas eternas</button>
+      <button class="filtro-btn" data-filter="otros">Otros regalos</button>
+    </div>
+
+    <div class="catalogo-grid" id="catalogo-grid">
+      <div class="producto-card" data-category="kits">
+        <div class="producto-imagen">
+          <img src="Productos.png" alt="Kit regalo personalizado Eflorescencia" loading="lazy">
+        </div>
+        <div class="producto-info">
+          <h3>Kit Personalizado</h3>
+          <p>Regalos compuestos por diferentes elementos que se adaptan a la ocasión y preferencias de cada cliente.</p>
+          <div class="producto-precio">Consultar disponibilidad</div>
+          <a href="#personaliza" class="btn btn-outline" style="width: 100%; justify-content: center;">Solicitar cotización</a>
+        </div>
+      </div>
+      <div class="producto-card" data-category="peluches">
+        <div class="producto-imagen">
+          <img src="Productos.png" alt="Peluche personalizado Eflorescencia" loading="lazy">
+        </div>
+        <div class="producto-info">
+          <h3>Peluche Personalizado</h3>
+          <p>Un tierno detalle preparado para convertirse en un recuerdo especial de quien lo recibe.</p>
+          <div class="producto-precio">Consultar disponibilidad</div>
+          <a href="#personaliza" class="btn btn-outline" style="width: 100%; justify-content: center;">Solicitar cotización</a>
+        </div>
+      </div>
+      <div class="producto-card" data-category="rosas">
+        <div class="producto-imagen">
+          <img src="Productos.png" alt="Rosa eterna Eflorescencia" loading="lazy">
+        </div>
+        <div class="producto-info">
+          <h3>Rosa Eterna</h3>
+          <p>Esencia floral para expresar sentimientos y conservar un recuerdo que perdura en el tiempo.</p>
+          <div class="producto-precio">Consultar disponibilidad</div>
+          <a href="#personaliza" class="btn btn-outline" style="width: 100%; justify-content: center;">Solicitar cotización</a>
+        </div>
+      </div>
+      <div class="producto-card" data-category="otros">
+        <div class="producto-imagen">
+          <img src="Productos.png" alt="Regalo personalizado artesanal Eflorescencia" loading="lazy">
+        </div>
+        <div class="producto-info">
+          <h3>Otros Regalos Personalizados</h3>
+          <p>Propuestas artesanales diseñadas a la medida para diferentes celebraciones y destinatarios.</p>
+          <div class="producto-precio">Consultar disponibilidad</div>
+          <a href="#personaliza" class="btn btn-outline" style="width: 100%; justify-content: center;">Solicitar cotización</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="personaliza section" id="personaliza">
+  <div class="container">
+    <div class="personaliza-contenido">
+      <div>
+        <div class="section-title" style="text-align: left;">
+          <h2>Personaliza tu regalo</h2>
+          <p>Crea un detalle único, pensado especialmente para esa persona importante.</p>
+          <div class="section-divider" style="margin: 0 0 2rem 0;"></div>
+        </div>
+        <div class="pasos-personalizacion">
+          <div class="paso">
+            <div class="numero-paso">1</div>
+            <div class="paso-texto">
+              <h4>Elige el tipo de regalo</h4>
+              <p>Kit, peluche, rosa eterna u otra propuesta artesanal.</p>
+            </div>
+          </div>
+          <div class="paso">
+            <div class="numero-paso">2</div>
+            <div class="paso-texto">
+              <h4>Indica la ocasión especial</h4>
+              <p>Cumpleaños, aniversario, graduación, noviazgo u otra celebración.</p>
+            </div>
+          </div>
+          <div class="paso">
+            <div class="numero-paso">3</div>
+            <div class="paso-texto">
+              <h4>Comparte gustos y preferencias</h4>
+              <p>Colores, flores, estilos y detalles que le gusten al destinatario.</p>
+            </div>
+          </div>
+          <div class="paso">
+            <div class="numero-paso">4</div>
+            <div class="paso-texto">
+              <h4>Indica tu presupuesto</h4>
+              <p>Opcional, para ajustar la propuesta a tus necesidades.</p>
+            </div>
+          </div>
+          <div class="paso">
+            <div class="numero-paso">5</div>
+            <div class="paso-texto">
+              <h4>Añade un mensaje o dedicatoria</h4>
+              <p>Palabras personales que acompañen el regalo.</p>
+            </div>
+          </div>
+          <div class="paso">
+            <div class="numero-paso">6</div>
+            <div class="paso-texto">
+              <h4>Solicita asesoría</h4>
+              <p>Definimos los detalles finales juntos antes de producir.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="formulario-personaliza">
+          <h3>Solicita tu cotización</h3>
+          <form id="form-personaliza" novalidate>
+            <div class="form-group">
+              <label for="nombre">Nombre completo <span style="color: var(--color-rosa-intenso);">*</span></label>
+              <input type="text" id="nombre" name="nombre" required placeholder="Juan Pérez">
+            </div>
+            <div class="form-group">
+              <label for="contacto">Medio de contacto <span style="color: var(--color-rosa-intenso);">*</span></label>
+              <input type="tel" id="contacto" name="contacto" required placeholder="Celular o correo electrónico">
+            </div>
+            <div class="form-group">
+              <label for="tipo-regalo">Tipo de regalo <span style="color: var(--color-rosa-intenso);">*</span></label>
+              <select id="tipo-regalo" name="tipo-regalo" required>
+                <option value="">Selecciona una opción</option>
+                <option value="kit">Kit personalizado</option>
+                <option value="peluche">Peluche personalizado</option>
+                <option value="rosa">Rosa eterna</option>
+                <option value="otro">Otro regalo personalizado</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="ocasione">Ocasión especial <span style="color: var(--color-rosa-intenso);">*</span></label>
+              <select id="ocasione" name="ocasione" required>
+                <option value="">Selecciona la ocasión</option>
+                <option value="cumpleanos">Cumpleaños</option>
+                <option value="aniversario">Aniversario</option>
+                <option value="graduacion">Graduación</option>
+                <option value="noviazgo">Noviazgo</option>
+                <option value="otro">Otra celebración</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="presupuesto">Presupuesto aproximado (opcional)</label>
+              <input type="text" id="presupuesto" name="presupuesto" placeholder="Ej: $50.000 - $100.000">
+            </div>
+            <div class="form-group">
+              <label for="preferencias">Preferencias de personalización y mensaje (opcional)</label>
+              <textarea id="preferencias" name="preferencias" placeholder="Colores, flores, dedicatoria, gustos del destinatario..."></textarea>
+            </div>
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="terminos" name="terminos" required>
+              <label for="terminos">Autorizo el uso de mis datos para recibir asesoría y cotización.</label>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar solicitud de cotización</button>
+            <div class="form-mensaje" id="form-mensaje"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="por-que-elegir section">
+  <div class="container">
+    <div class="section-title">
+      <h2>¿Por qué elegir Eflorescencia?</h2>
+      <p>Atributos que hacen cada detalle único y especial</p>
+      <div class="section-divider"></div>
+    </div>
+    <div class="atributos-grid">
+      <div class="atributo-card">
+        <span class="atributo-icono">🎨</span>
+        <h3>Personalización total</h3>
+        <p>Cada regalo se adapta a los gustos, necesidades y preferencias de cada cliente.</p>
+      </div>
+      <div class="atributo-card">
+        <span class="atributo-icono">🌸</span>
+        <h3>Esencia floral y artesanal</h3>
+        <p>Propuestas creativas con flores y toque hecho a mano para celebraciones inolvidables.</p>
+      </div>
+      <div class="atributo-card">
+        <span class="atributo-icono">🤝</span>
+        <h3>Atención cercana</h3>
+        <p>Asesoría personalizada para acompañarte en cada elección.</p>
+      </div>
+      <div class="atributo-card">
+        <span class="atributo-icono">✨</span>
+        <h3>Recuerdos especiales</h3>
+        <p>Detalles diseñados para crear momentos inolvidables para quien regala y quien recibe.</p>
+      </div>
+      <div class="atributo-card">
+        <span class="atributo-icono">🌿</span>
+        <h3>Compromiso sostenible</h3>
+        <p>Prácticas responsables con el planeta, las personas y el crecimiento del negocio.</p>
+      </div>
+      <div class="atributo-card">
+        <span class="atributo-icono">📦</span>
+        <h3>Cuidado en la presentación</h3>
+        <p>Elaboración detallada y presentación cuidada en cada entrega.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="institucional section" id="institucional">
+  <div class="container">
+    <div class="institucional-contenido">
+      <div class="mision-bloque">
+        <h2 style="color: var(--color-rosa-intenso); font-size: 1.8rem; margin-bottom: 1rem;">Misión</h2>
+        <p>«Eflorescencia diseña, selecciona y produce detalles personalizados al gusto de cada cliente, para hacer inolvidables celebraciones como cumpleaños, aniversarios, graduaciones, noviazgos y todo tipo de celebraciones especiales. La empresa se especializa en regalos únicos con esencia floral y toque artesanal, pensados para personas y familias que valoran la emoción de un detalle hecho a su medida, tanto para quien lo recibe como para quien lo regala».</p>
+      </div>
+      <div class="vision-bloque">
+        <h2 style="color: var(--color-verde-natural); font-size: 1.8rem; margin-bottom: 1rem;">Visión</h2>
+        <p>«Eflorescencia se proyecta como la marca líder en regalos personalizados con esencia floral y artesanal en el mercado local durante los próximos 2 años, para luego expandirse a nivel nacional e internacional en un plazo de 4 años. Aspiramos a ser reconocidos por convertir cada celebración en una experiencia única, acompañando a nuestros clientes con asesoría cercana, calidad inigualable y un impacto emocional profundo. En el futuro, queremos que Eflorescencia sea sinónimo de amor, creatividad y sostenibilidad, creando una comunidad de personas que valoran lo hecho a mano y a la medida».</p>
+      </div>
+    </div>
+    <div class="infografia-valores">
+      <h2 style="text-align: center; margin-bottom: 1.5rem; color: var(--color-texto-principal);">Nuestros valores empresariales</h2>
+      <img src="Valores.png" alt="Infografía de los valores empresariales de Eflorescencia" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="sostenibilidad section">
+  <div class="container">
+    <div class="sostenibilidad-contenido">
+      <div class="sostenibilidad-intro">
+        <h2>Compromiso con la sostenibilidad</h2>
+        <p>Un equilibrio armonioso entre el cuidado del planeta, el bienestar de las personas y la solidez financiera.</p>
+      </div>
+
+      <div class="politica-sostenibilidad">
+        <h3 style="margin-bottom: 1.5rem; color: var(--color-texto-principal);">Política de Sostenibilidad</h3>
+        <p>«Eflorescencia se compromete a integrar la sostenibilidad como el eje transversal de su modelo de negocio, garantizando un equilibrio armonioso entre el cuidado del planeta, el bienestar de las personas y la solidez financiera.</p>
+        <p>Para ello, operamos bajo principios de economía circular: utilizamos insumos biológicos y renovables, optamos por logística de bajo impacto ambiental y gestionamos responsablemente nuestros residuos mediante el reciclaje y la reutilización. Paralelamente, fomentamos un entorno laboral justo y motivador, reconociendo el esfuerzo de nuestros colaboradores con bonos y comisiones, y construyendo relaciones de respeto y transparencia tanto con nuestros clientes como con nuestros proveedores. Todo esto se sustenta en una administración financiera eficiente que optimiza nuestros recursos, asegura la excelencia y calidad certificada de nuestros productos, y dinamiza un flujo económico saludable que impulse el crecimiento continuo de la empresa.</p>
+        <p>De esta manera, Eflorescencia no solo busca destacarse en el futuro, sino ser un agente de cambio positivo en el presente, creando valor duradero para todos nuestros grupos de interés».</p>
+      </div>
+
+      <div class="ejes-sostenibilidad">
+        <div class="eje-card">
+          <span class="eje-icono">🌍</span>
+          <h3>Cuidado del planeta</h3>
+          <p>Insumos biológicos y renovables, logística de bajo impacto, reciclaje y reutilización de residuos.</p>
+        </div>
+        <div class="eje-card">
+          <span class="eje-icono">👥</span>
+          <h3>Bienestar de las personas</h3>
+          <p>Entorno laboral justo, bonos y comisiones, respeto y transparencia con clientes y proveedores.</p>
+        </div>
+        <div class="eje-card">
+          <span class="eje-icono">💰</span>
+          <h3>Solidez financiera</h3>
+          <p>Administración eficiente, calidad certificada y flujo económico saludable para el crecimiento.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cobertura section">
+  <div class="container">
+    <div class="cobertura-contenido">
+      <div class="cobertura-info">
+        <div class="section-title">
+          <h2>Cobertura y ubicación</h2>
+          <p>Comenzando en Tunjuelito, proyectados hacia todo Colombia</p>
+          <div class="section-divider"></div>
+        </div>
+        <h3>Ubicación inicial</h3>
+        <p>Eflorescencia SAS inicia sus operaciones en <strong>Tunjuelito, Bogotá D. C., Colombia</strong>, atendiendo el mercado local con entrega directa y asesoría personalizada.</p>
+        <h3>Proyección de expansión</h3>
+        <p>Nuestra visión es ampliar progresivamente los envíos y puntos de venta a otras zonas de Bogotá, diferentes ciudades y, eventualmente, todo el territorio colombiano.</p>
+        <ul>
+          <li><strong>Fase 1:</strong> Atención local en Tunjuelito y zonas aledañas de Bogotá</li>
+          <li><strong>Fase 2:</strong> Expansión a otras localidades de Bogotá</li>
+          <li><strong>Fase 3:</strong> Envíos a otras ciudades de Colombia</li>
+          <li><strong>Fase 4:</strong> Cobertura nacional</li>
+        </ul>
+        <p><em>Consulta si realizamos envíos a tu dirección a través del formulario de contacto.</em></p>
+      </div>
+      <div class="cobertura-mapa">
+        <div class="cobertura-lugar">📍</div>
+        <h3>Tunjuelito, Bogotá D. C.</h3>
+        <p>Sede inicial de Eflorescencia SAS</p>
+        <a href="#contacto" class="btn btn-outline">Consultar cobertura para tu ciudad</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="redes-sociales section">
+  <div class="container">
+    <div class="redes-contenido">
+      <div class="section-title">
+        <h2>Síguenos en nuestras redes sociales</h2>
+        <p>Descubre productos, novedades y más ideas de regalos</p>
+        <div class="section-divider"></div>
+      </div>
+      <div class="redes-grid">
+        <div class="red-card">
+          <span class="red-icono">📸</span>
+          <h3>Instagram</h3>
+          <p>@eflorescenciayamor</p>
+          <a href="https://www.instagram.com/eflorescenciayamor/" target="_blank" rel="noopener noreferrer" class="red-link">Ver perfil →</a>
+        </div>
+        <div class="red-card">
+          <span class="red-icono">🎵</span>
+          <h3>TikTok</h3>
+          <p>@eflorescenciayamor</p>
+          <a href="https://www.tiktok.com/@eflorescenciayamor" target="_blank" rel="noopener noreferrer" class="red-link">Ver perfil →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-final" id="contacto">
+  <div class="container">
+    <h2>Crea un detalle único</h2>
+    <p>Encuentra el regalo que represente lo que sientes por alguien especial. Detalles que florecen para cada celebración.</p>
+    <a href="#personaliza" class="btn">Solicitar asesoría personalizada</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-contenido">
+      <div class="footer-logo">
+        <img src="Logo.png" alt="Logo Eflorescencia SAS">
+        <div class="footer-eslogan">«detalles que florecen»</div>
+        <div class="footer-desc">
+          Regalos personalizados con esencia floral y artesanal. Diseñados en Tunjuelito, Bogotá D. C., Colombia.
+        </div>
+      </div>
+      <div class="footer-columna">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#catalogo">Catálogo</a></li>
+          <li><a href="#personaliza">Personalizar</a></li>
+          <li><a href="#institucional">Nosotros</a></li>
+        </ul>
+      </div>
+      <div class="footer-columna">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="#personaliza">Solicitar cotización</a></li>
+          <li><a href="#contacto">Asesoría personalizada</a></li>
+          <li><a href="#ocasiones">Ocasiones especiales</a></li>
+        </ul>
+      </div>
+      <div class="footer-columna">
+        <h4>Síguenos</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/eflorescenciayamor/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@eflorescenciayamor" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Eflorescencia SAS - Regalos personalizados con esencia floral y artesanal. Tunjuelito, Bogotá D. C., Colombia.</p>
+      <p>© 2026 Eflorescencia SAS. Todos los derechos reservados.</p>
+      <p><em>Política de privacidad y documentos legales próximos.</em></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Header scroll effect
+  const header = document.getElementById('header');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+
+  // Mobile menu toggle
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const navMenu = document.getElementById('nav-menu');
+
+  mobileMenuBtn.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+    const isActive = navMenu.classList.contains('active');
+    mobileMenuBtn.setAttribute('aria-expanded', isActive);
+    mobileMenuBtn.innerHTML = isActive ? '✕' : '☰';
+  });
+
+  // Close mobile menu when clicking a link
+  document.querySelectorAll('.nav-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      navMenu.classList.remove('active');
+      mobileMenuBtn.innerHTML = '☰';
+      mobileMenuBtn.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Catalog filter
+  const filtroBtns = document.querySelectorAll('.filtro-btn');
+  const productoCards = document.querySelectorAll('.producto-card');
+
+  filtroBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Update active button
+      filtroBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filter = btn.getAttribute('data-filter');
+
+      // Filter products
+      productoCards.forEach(card => {
+        if (filter === 'todos' || card.getAttribute('data-category') === filter) {
+          card.style.display = 'block';
+          card.style.animation = 'fadeInUp 0.5s ease';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Form handling
+  const form = document.getElementById('form-personaliza');
+  const mensaje = document.getElementById('form-mensaje');
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData);
+
+    // Simulate form submission
+    mensaje.classList.remove('error', 'exito');
+    mensaje.style.display = 'block';
+    mensaje.textContent = 'Tu solicitud ha sido enviada correctamente. Nos pondremos en contacto contigo pronto para definir los detalles de tu regalo personalizado.';
+    mensaje.classList.add('exito');
+
+    form.reset();
+
+    setTimeout(() => {
+      mensaje.style.display = 'none';
+    }, 8000);
+  });
+
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+
+  // Intersection Observer for animations
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, observerOptions);
+
+  document.querySelectorAll('.occasion-card, .producto-card, .atributo-card, .eje-card, .red-card').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(30px)';
+    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    observer.observe(el);
+  });
+
+  // Initialize visible elements on load
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.occasion-card, .producto-card, .atributo-card, .eje-card, .red-card').forEach(el => {
+      el.style.opacity = '1';
+      el.style.transform = 'translateY(0)';
+    });
+  });
+</script>
+
+</body>
+</html>
